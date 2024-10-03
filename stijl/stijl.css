@@ -1,8 +1,20 @@
 img{
-    float:left
+    float:left;
+    position:static;
 }
 a{
     float: right;
-    text-align: justify;
+    text-align: right;  
+    position:absolute;
+    right: 1%;
+    top: 0%;
     
+    }
+button{
+    float: inline-end;
+    text-align: end;
+    bottom: 10px;
+    background-color: white;
+    border: 0cap;
+    position:absolute;bottom: 40;
 }
